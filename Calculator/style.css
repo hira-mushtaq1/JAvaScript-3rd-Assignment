@@ -1,0 +1,44 @@
+*{
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+
+}
+
+.screen{
+    background-color: lemonchiffon;
+    padding: 15px;
+    font-size: 1.5em;
+    width: 92%;
+    border: none;
+    height: 50px;
+   
+}
+.calculator{
+
+ 
+    width: 400px;
+    height: 500px;
+    margin: auto;
+    border: 1px solid black;
+}
+
+.btnParent button{
+    height: 100px;
+    width: 100px;
+    background-color: aliceblue;
+    border: none;
+    font-size: 1.5em;
+    border:  1px solid white;
+
+}
+.btnParent{
+
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
